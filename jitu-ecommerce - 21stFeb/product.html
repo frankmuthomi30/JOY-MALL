@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +15,49 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
-        <a href="./index.html">HOME</a>
-        <h3>One Products</h3>
+    <div class="header">
+      <img src="./logo-no-background.png">
+        <h1>JOYMALL</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <i class="fa-solid fa-cart-shopping"><span></span></i>
+
+        </nav>
+    </div>        >
         <div class="product-single">
-            <!-- <div class="single-product"> This is how the single product will look like
-            <img src="https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg" alt="">
-                <div class="single-product-info">
-                    <h3>Title</h3>
-                    <p>description</p>
-                    <strong>100, 000</strong>
-                    <br>
-                    <button>Add to cart</button>
-                </div>
-            </div> -->
         </div>
+        <div class="shopped">
+          <h2>Cart-Items</h2>
+          <ul class="cart-list"></ul>
+        </div>
+
         
-    </div>
+        <div class="footer">
+            <div class="group1">
+              <h3>Products</h3>
+               <p>men'wear</p>
+               <p>women's wear</p>
+               <p>jewerery</p>
+               <p>Accessories</p>
+            </div>
+            <div class="group2">
+               <h3>Abouts</h3>
+                <p>contacts</p>
+                <p>latest products</p>
+                <p>queries</p>
+                <p>customer care</p>
+             </div>
+             <div class="group3">
+               <h3>FAQS</h3>
+                <UL>
+                   <li>How long does a delivery take?</li>
+                   <li>Are taxes include in every shipped item ?</li>
+                   <li>Are Master cards authenticated?</li>
+                   <li>Cancelation of a product less than 24Hrs</li>
+       
+                </UL>
+             </div>
+               </div>
     <script src="./js/product.js"></script>
 </body>
 </html>
